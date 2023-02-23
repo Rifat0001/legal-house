@@ -69,18 +69,8 @@ a {
 }
 
 
-
-
-.img-border {
-    border: 3px solid #FFFFFF;
-}
-
 .accordion-bg {
     background: #F3F3F3 !important;
-}
-
-.accordion-item {
-    border: none;
 }
 
 .accordion-button::after {
@@ -96,26 +86,4 @@ a {
     color: var(--bs-accordion-active-color);
     background-color: #F3F3F3;
     box-shadow: none;
-}
-
-footer {
-    background-color: #111111;
-}
-
-
-@media screen and (max-width: 576px) {
-    .input-grp-custom {
-        width: 100% !important;
-    }
-
-    .sm-width {
-        width: 100% !important;
-        margin-bottom: 10px;
-    }
-
-
-
-    br {
-        display: none;
-    }
 }
